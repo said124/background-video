@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.header{
+    width: 1920px;
+    height: 1200px;
+    position: relative;
+    color: white;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.nav{
+    width: 1400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.nav img{
+    margin-left: 298px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 29px;
+    margin-left: 37px;
+    align-items: center;
+}
+
+.nav ul li{
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11.92px;
+    line-height: 19.6px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.upcoming{
+    height: 70%;
+    align-content: flex-end;
+    margin-left: 298px;
+}
+
+.upcoming h3{
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17.19px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.upcoming h1{
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 41.06px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+
+.btn{
+    width: 130px;
+    height: 50px;
+    border-width: 2px;
+    border: 2px solid #FFFFFF;
+    background: none;
+    color: white;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12.91px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.section{
+    width: 1920px;
+    height: 1200px;
+    position: relative;
+    color: white;
+}
+
+.footer{
+    width: 1920px;
+    height: 81px;
+    background-color: black;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.footer ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+}
+
+.footer ul li{
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10.5px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+}
